@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.slidorion.com/</loc>
+  <lastmod>2011-12-08T03:21:40+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.slidorion.com/demos/slidorion-background-demo.html</loc>
+  <lastmod>2011-12-08T02:14:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.slidorion.com/demos/slidorion-basic-demo.html</loc>
+  <lastmod>2011-12-08T02:10:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.slidorion.com/demos/slidorion-random-demo.html</loc>
+  <lastmod>2011-12-08T02:14:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.slidorion.com/demos/slidorion-sliderandom-demo.html</loc>
+  <lastmod>2011-12-08T02:14:39+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.slidorion.com/demos/slidorion-overrandom-demo.html</loc>
+  <lastmod>2011-12-08T02:14:38+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.slidorion.com/demos/slidorion-multiple-demo.html</loc>
+  <lastmod>2011-12-08T02:10:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>

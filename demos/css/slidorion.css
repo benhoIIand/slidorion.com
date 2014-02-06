@@ -1,0 +1,119 @@
+/* Slidorion Stylesheet */
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+	font-family: Tahoma;
+	font-size: 13px;
+}
+
+#slidorion {
+	width: 100%;			/* Set to slidorion width. Is equal to #slider + #accordion width */
+	height: 100%;			/* Set to slidorion height. Is equal to #slider and #accordion height */
+	position: absolute;
+	top:0;
+	left: 0;
+	display: none;
+}
+
+#slider {
+	width: 100%;			/* Set to slider width */
+	height: 100%;			/* Set to slider height */
+	overflow: hidden;		/* Hides the animations */
+}
+
+#slider > div {
+	position:absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#slider > div > img {
+	width: 100%;
+}
+
+#accordion {
+	width: 20%;			/* Set to accordion width */
+	height: 100%;			/* Set to image height */
+	position: absolute;
+	color: #fff;
+	background: rgba(0,0,0,0.7);
+	-webkit-box-shadow: -3px 0px 3px -1px rgba(51,51,51,0.3);
+	-moz-box-shadow: -3px 0px 3px -1px rgba(51,51,51,0.3);
+	box-shadow: -3px 0px 3px -1px rgba(51,51,51,0.3);
+	z-index:999;
+	overflow: hidden;
+}
+
+#accordion > .link-header {
+	padding: 20px 14px;
+	background: rgba(0,0,0,0.7);
+	font-size: 12px;
+	font-weight: bold;
+	color: #4f4f4f;
+	border-top: 1px solid #333;
+}
+
+#accordion > .link-header:first-child {
+	border-top:none;
+}
+
+#accordion > .link-header:hover {
+	background: rgba(0,0,0,0.6);
+	color: #8f8f8f;
+	cursor: pointer;
+}
+
+#accordion > .link-header.active {
+	background: rgba(0,0,0,0.7);
+	border-bottom: none;
+	color: #fff;
+}
+
+#accordion > .link-content {
+	height: 100%;
+	font-weight: normal;
+	font-size: 13px;
+	line-height:20px;
+	margin: 0;
+	padding: 16px;
+	border: none;
+	overflow:auto;
+}
+
+#slider .caption {
+	position: absolute;
+	top: 70%;
+	padding: 15px 40px 15px 20px;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 2;
+}
+
+#slider #slide2 .caption { top: 20%; }
+#slider #slide3 .caption { top: 15%; right:0; padding-right:30%; }
+
+#slider .caption h1 {
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin-bottom: 14px;
+}
+
+#slider .caption p {
+	font-size: 14px;
+}
+
+#loader {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -16px;
+	margin-top: -16px;
+}
