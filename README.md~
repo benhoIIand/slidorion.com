@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## The Slidorion
 
 <a href="http://www.slidorion.com">Slidorion Website</a>
@@ -63,3 +64,9 @@ none
     * Solved some transition issues with IE8
 * Version 0.9
     * Launch of Slidorion
+=======
+slidorion.com
+=============
+
+The website for Slidorion
+>>>>>>> 0b1a6f9a82507fdee05b8acca525cc5de54a6b80
